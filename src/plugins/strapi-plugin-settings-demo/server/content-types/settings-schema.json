@@ -1,15 +1,13 @@
 {
   "kind": "singleType",
-  "collectionName": "settings_demo",
+  "collectionName": "demo_settings",
   "info": {
-    "singularName": "setting",
-    "pluralName": "settings",
-    "displayName": "Settings Demo",
-    "description": ""
+    "singularName": "demo-setting",
+    "pluralName": "demo-settings",
+    "displayName": "demoSetting"
   },
   "options": {
-    "draftAndPublish": false,
-    "comment": ""
+    "draftAndPublish": true
   },
   "pluginOptions": {
     "content-manager": {
@@ -21,8 +19,7 @@
   },
   "attributes": {
     "token": {
-      "type": "string",
-      "required": true
+      "type": "string"
     }
   }
 }

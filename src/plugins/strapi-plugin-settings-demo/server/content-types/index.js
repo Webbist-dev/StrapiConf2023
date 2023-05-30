@@ -3,7 +3,7 @@
 const settingsSchema = require('./settings-schema');
 
 module.exports = {
-  setting: {
+  "demo-setting": {
     schema: settingsSchema
   }
 };
