@@ -12,27 +12,30 @@ export default {
       name,
     });
 
+    
+
     app.createSettingSection(
       {
         id: pluginId,
         intlLabel: {
-          id: 'Settings Demo',
-          defaultMessage: 'This is an example plugin',
+          id: 'Settings',
+          defaultMessage: 'This is an example plugin showcasing how to setup plugin settings',
         },
       },
       [
         {
           intlLabel: {
-            id: 'Settings Demo',
-            defaultMessage: 'This is an example plugin',
+            id: 'Settings',
+            defaultMessage: 'Configuration',
           },
           id: 'demo-settings',
           to: `/settings/${pluginId}`,
           Component: async () => {
             return await import(
-            /* webpackChunkName: "settingsDemo" */ './pages/Settings'
+            /* webpackChunkName: "navigation-settings" */ './pages/Settings'
             );
-          }
+          },
+          // permissions: pluginPermissions['settings.config'],
         },
       ]
     );
