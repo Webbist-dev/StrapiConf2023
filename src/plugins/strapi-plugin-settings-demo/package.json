@@ -1,10 +1,10 @@
 {
-  "name": "settings-demo",
+  "name": "strapi-plugin-settings-demo",
   "version": "0.0.0",
   "description": "This is the description of the plugin.",
   "strapi": {
     "name": "settings-demo",
-    "description": "Description of Settings Demo plugin",
+    "description": "This plugin is a demo for how to use Strapi plugin configurations and settings.",
     "kind": "plugin",
     "displayName": "Settings Demo"
   },
@@ -27,11 +27,13 @@
     "styled-components": "^5.3.6"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Alex Bennett",
+    "email": "info@alex-bennett.co.uk"
   },
   "maintainers": [
     {
-      "name": "A Strapi developer"
+      "name": "Alex Bennett",
+      "email": "info@alex-bennett.co.uk"
     }
   ],
   "engines": {

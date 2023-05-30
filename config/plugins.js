@@ -1,6 +1,6 @@
 module.exports = {
   'settings-demo': {
     enabled: true,
-    resolve: './src/plugins/settings-demo'
+    resolve: './src/plugins/strapi-plugin-settings-demo'
   }
 }
